@@ -1,0 +1,16 @@
+.masthead
+{
+margin: 0 autol;
+margin-top: 50px;
+height:100vh;
+min-height:500px;
+background-image: url(./header.png);
+background-size:cover;
+background-position:center;
+background-repeat: no-repeat;
+}
+
+.bg-orange
+{
+  background-color:orange;
+}
