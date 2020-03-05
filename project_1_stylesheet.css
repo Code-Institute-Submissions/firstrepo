@@ -5,9 +5,16 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  font-family: 'Lato', sans-serif;
+  ;
 }
 
-.bg-orange
+.navbg
+{
+  background-color:lightblue;
+}
+
+.bg
 {
   background-color:lightblue;
 }
@@ -28,13 +35,23 @@ body {
 
 .introbox
 {
-  border: 5px solid #f7a239;
   object-fit: containt !important;
   padding:0;
 } 
 
+.boxborder
+{
+  border-top:solid;
+  border-bottom:solid;
+  border-color:black;
+}
+
 #logo
 {
   width: 40%;
+}
 
+.roundimg
+{
+border-radius:0px;
 }
