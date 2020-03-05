@@ -9,7 +9,7 @@ body {
 
 .bg-orange
 {
-  background-color:darkblue;
+  background-color:lightblue;
 }
 
 .videoWrapper {
@@ -33,5 +33,8 @@ body {
   padding:0;
 } 
 
+#logo
+{
+  width: 40%;
 
-
+}
