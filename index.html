@@ -15,14 +15,14 @@
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbg fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light navbg fixed-top">
         <a class="navbar-brand" href="#"><img src="smitechlogo.png" class="img-fluid" style="height:30px; width:auto; padding:0; margin:0;" alt="Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav navbar-right ml-auto" >
             <li class="nav-item">
               <a class="nav-link" href="#aboutus">About Us <span class="sr-only">(current)</span></a>
             </li>
@@ -42,6 +42,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#activities">Activities</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactus">Contact Us!</a>
+            </li>
           </ul>
 
         </div>
@@ -49,20 +52,23 @@
       
     <!-- BLOCK 1: VIDEO & LOGO -->
     <section>
-      <div id="aboutus" class="container text-center">
-        <img id="logo" src="smitechlogo.png" class="img-fluid" style="max-width: 300px; padding-bottom: 20px ;" alt="Logo">
-        <div class="videoWrapper">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/MyOtGjxdB9c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center">
-            </br>
-                <h2>
-                    About Us
-                </h2>
+      <div id="aboutus" class="container-fluid text-center">
+        <img id="logo" src="smitechlogowhite.png" class="img-fluid" style="max-width: 300px;" alt="Logo">
+        <h4>Changi Airport Terminal 4 - Integrated Facilities Management</h4></br>
+        <div class="row" style="justify-content: center;">
+            <div class="col-12 col-lg-10 text-center">
+              <div class="videoWrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MyOtGjxdB9c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              </br>
+              <h2>
+                  About Us
+              </h2>
+              <p>
+                Widely regarded as one of the most established M&E company in the industry, SMITECH has participated in mega national projects paramount to the well-being of Singapore. Cutting edge technology coupled with precise efficiency, SMITECH’s success resides in the people who make us who we are; many who are in their own name, industrial experts with substantial fame and proven track-records.        </br>
+              </p>
             </div>
         </div>
-        Widely regarded as one of the most established M&E company in the industry, SMITECH has participated in mega national projects paramount to the well-being of Singapore. Cutting edge technology coupled with precise efficiency, SMITECH’s success resides in the people who make us who we are; many who are in their own name, industrial experts with substantial fame and proven track-records.        </br>
       </br>
       </div>
       <div class="container-fluid">
@@ -87,18 +93,18 @@
         </div>
           <!--Container 1A-->
         <div id="mechengine" class="row roundimg" style="justify-content:center">
-          <div class="col-lg-5 col-12 order-sm-1 bg introbox">
-            <h3>MECHANICAL ENGINEERING</h3>
-            <p>
-              - Fire Protection System</br>
-              - Air-Conditiong System</br>
-              - Mechanical Ventilation System</br>
-              - Plumbing & Sanitary System</br>
-            </p>
+          <div class="col-lg-4 col-12 order-sm-1 bg introbox">
+            <h3 style="text-align:center;">MECHANICAL ENGINEERING</h3>
+            <ul> 
+              <li>Fire Protection System</li>
+              <li>Air-Conditiong System</li>
+              <li>Mechanical Ventilation System</li>
+              <li>Plumbing & Sanitary System</li>
+            </ul>
           </div>
     
           <!--Container 1B-->
-          <div class="col-lg-5 col-12 order-sm-2 bg introbox">
+          <div class="col-lg-6 col-12 order-sm-2 bg introbox">
             <div id="carousel1b" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carousel1b" data-slide-to="0" class="active"></li>
@@ -129,18 +135,18 @@
         </div></br>
           <!--Container 2A-->
         <div id="elecengine" class="row roundimg" style="justify-content:center;">
-          <div class="col-lg-5 col-12 order-lg-2 introbox">
-            <h3>ELECTRICAL ENGINEERING</h3>
-              <p>
-                - Main Switchboard</br>
-                - Lighting Control System</br>
-                - Lightning Protection System</br>
-                - Generator</br>
-              </p>
+          <div class="col-lg-4 col-12 order-lg-2 bg introbox">
+            <h3 style="text-align:center;">ELECTRICAL ENGINEERING</h3>
+            <ul> 
+              <li>Main Switchboard</li>
+              <li>Lighting Control System</li>
+              <li>Lightning Protection System</li>
+              <li>Generator</li>
+            </ul>
           </div>
 
           <!--Container 2B-->
-          <div class="col-lg-5 col-12 order-lg-1 introbox">
+          <div class="col-lg-6 col-12 order-lg-1 introbox">
             <div id="carousel2b" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carousel2b" data-slide-to="0" class="active"></li>
@@ -171,17 +177,17 @@
         </div></br>
           <!--Container 3A-->
         <div id="building" class="row roundimg" style="justify-content:center;">
-          <div class="col-lg-5 col-12 ordersm-1 bg introbox">
-            <h3>BUILDING CUSTODIANS</h3>
-              <p>
-                - Building Facade</br>
-                - Landscape</br>
-                - Carpentry & Tiling</br>
-              </p>
+          <div class="col-lg-4 col-12 ordersm-1 bg introbox">
+            <h3 style="text-align:center;">BUILDING CUSTODIANS</h3>
+            <ul> 
+              <li>Building Facade</li>
+              <li>Landscape</li>
+              <li>Carpentry & Tiling</li>
+            </ul>
           </div>
         
           <!--Container 3B-->
-          <div class="col-lg-5 col-12 order-sm-2 bg introbox">
+          <div class="col-lg-6 col-12 order-sm-2 bg introbox">
             <div id="carousel3b" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carousel3b" data-slide-to="0" class="active"></li>
@@ -220,7 +226,7 @@
           <div class="col-12 col-lg-10" style="text-align:center;">
             <h2>Other Projects</h2>
             <p>
-              Aside from the daily operations and maintenance of the building services, here in Smitech Engineereing at T4 we often carry out Additions and Alterations works as part of a continuous improvement process to ensure the building is always in tip-top condition.
+              Aside from the daily operations and maintenance of the building services, here in Smitech Engineering at T4 we often carry out Additions and Alterations works as part of a continuous improvement process to ensure the building is always in tip-top condition.
             </p>
           </div>
           <div class="col-12 col-lg-10 introbox">
@@ -234,22 +240,19 @@
                 <div class="carousel-item active">
                   <img class="d-block w-100 roundimg" src="pump1.jpg" alt="First slide">
                   <div class="carousel-caption d-md-block">
-                    <h3>Additions & Alterations Projects</h3>
-                    <p>Sprinkler Pump Upgrading</p>
+                    <h3>Sprinkler Pump Upgrading</h3>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img class="d-block w-100 roundimg" src="switchboard1.jpg" alt="Second slide">
                   <div class="carousel-caption d-md-block">
-                    <h3>Additions & Alterations Projects</h3>
-                    <p>Switch Board Upgrading</p>
+                    <h3>Switch Board Upgrading</h3>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img class="d-block w-100 roundimg" src="pipe1.jpg" alt="Third slide">
                   <div class="carousel-caption d-md-block">
-                    <h3>Additions & Alterations Projects</h3>
-                    <p>Water Pipe Installation</p>
+                    <h3>Water Pipe Installation</h3>
                   </div>
                 </div>
               </div>
@@ -274,7 +277,7 @@
           <div class="col-12 col-lg-10" style="text-align:center;">
             <h2>Social Events & Activities!</h2>
             <p>
-              It is hard work manaing a Terminal Building, our team also hosts several activities and events to show appreciation for our staff who have been giving their best at work!
+              It is hard work managing a Terminal Building, our team also hosts several activities and events to show appreciation for our staff who have been giving their best at work!
             </p>
           </div>
           <div class="col-12 col-lg-10 introbox">
@@ -289,29 +292,25 @@
                 <div class="carousel-item active">
                   <img class="d-block w-100 roundimg" src="fun2.jpeg" alt="First slide">
                   <div class="carousel-caption d-md-block">
-                    <h3>Company Events</h3>
-                    <p>Christmas Party 1!</p>
+                    <h3>Family Day Bowling 2018</h3>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img class="d-block w-100 roundimg" src="fun3.jpeg" alt="Second slide">
                   <div class="carousel-caption d-md-block">
-                    <h3>Company Events</h3>
-                    <p>Christmas Party 2!</p>
+                    <h3>Barbeque 2017</h3>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img class="d-block w-100 roundimg" src="fun5.jpeg" alt="Third slide">
                   <div class="carousel-caption d-md-block">
-                    <h3>Company Events</h3>
-                    <p>Christmas Party 3!</p>
+                    <h3>Christmas Party 2017</h3>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img class="d-block w-100 roundimg" src="fun1.jpeg" alt="Fourth slide">
                   <div class="carousel-caption d-md-block">
-                    <h3>Company Events</h3>
-                    <p>Christmas Party 3!</p>
+                    <h3>Christmas Party 2018</h3>
                   </div>
                 </div>
               </div>
@@ -327,13 +326,15 @@
           </div>
         </div>
       </div>
-    </section>
+    </section></br>
 
     <!-- BLOCK 5: CONTACT US -->
     <section>
-      <div class="container-fluid">
-        <div class="row" style="justify-content: center;">
+      <div id="contactus" class="container-fluid">
+        <div class="row" style="justify-content:center;">
           <div class="col-lg-6 col-8">
+            <h2 style="text-align:center;">Join Us!</h2>
+            <p style="text-align:center;">Interested to know more? Fill in your particulars below, and we will contact you!</p>
             <form action="https://formdump.codeinstitute.net" method = "post">
               <div class="form-group">
                 <br/>
@@ -352,7 +353,7 @@
                 <br/><br/>
 
                 <input type="checkbox" required>I agree to the terms and conditions<br/><br/>
-                <input type="submit"><br/>
+                <button type="submit" class="btn btn-primary" style="background-color:lightseagreen;">Submit</button>
               </div>
             </form>
           </div>
@@ -360,7 +361,13 @@
       </div>
     </section>
 
-    <script>
+
+
+  <footer>
+    Thank you
+  </footer>
+
+  <script>
     var divId;
 
     $('.nav-link').click(function(){    

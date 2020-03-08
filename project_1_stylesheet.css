@@ -1,22 +1,25 @@
 body {
   padding-top:100px;
-  background-image: linear-gradient(rgba(0, 0, 140,0.3),rgba(0, 0, 140,0.8));
+  background-image: linear-gradient(rgba(9, 4, 58, 0.808),rgba(7, 7, 194, 0.637));
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   font-family: 'Lato', sans-serif;
+  color:white;
   ;
 }
 
 .navbg
 {
-  background-color:lightblue;
+  background-color:white;
+  color:black !important;
 }
 
 .bg
 {
-  background-color:lightblue;
+  background-color:rgb(173, 216, 230,0.8);
+  color:black !important;
 }
 
 .videoWrapper {
@@ -54,4 +57,9 @@ body {
 .roundimg
 {
 border-radius:0px;
+}
+
+.navbar
+{
+  color:black !important;
 }
