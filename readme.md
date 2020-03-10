@@ -1,41 +1,38 @@
 ## Smitech Engineering (Terminal 4) Landing Page
 
 
-One or two paragraphs providing an overview of your project.
+This project is a landing page for potential hires or interested parties to visit and know more about our company and what we do. 
 
-Essentially, this part is your sales pitch.
 
 UX
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This website gives a brief summary of the Company and the team at Changi Airport Terminal 4. It breaks the team down into individual departments and their respective scope of works as information for the user, followed by other miscellaneous/additional scopes that are available. This allows potential hires or interested persons to briefly get to know about the team.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+As a job seeker, I would want to know more about a company and its scope and culture to check if they align with my interest and values before I submit an application. Through this website, I would be able to gain an insight into the team dynamics and types of work I would be exposed to, which will serve as a good idea of waht life would be like working in the team.
 
 Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+Feature 1 - Carousel allows users to scroll through images of the types of work done by each department. This presents the information in a visual manner instead of plain text.
 
-Existing Features
+Feature 2 - Each section is separated in blocks with brief descriptions, so that users can glance through without spending too much time reading the text.
 
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Features to Implement:
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+a. Message from site manager about his vision for the team
 
-Features Left to Implement
+b. Testimonials about the company and its team from various stakeholders
 
-Another feature idea
+
 Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+Bootstrap (CSS framwork) and some Javascript was used for the construction of this project. 
+JQuery was used to simplify DOM manipulation.
+Media Query was used to manipulate elements to fit smaller screens.
+References were made from getbootstrap.com 
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
 Testing
+
+HTML code was validated by validator.w3.org.
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 

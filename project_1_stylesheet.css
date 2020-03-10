@@ -78,7 +78,7 @@ border-color:black;
   padding:5%;
 }
 
-@media (max-width: 784px) 
+@media (max-width: 740px) 
 { 
   p{
     font-size: small;
@@ -90,7 +90,7 @@ border-color:black;
   {
     font-size:xx-small;
   }
-  .footer
+  .footeritem
   {
     text-align:center !important;
   }
