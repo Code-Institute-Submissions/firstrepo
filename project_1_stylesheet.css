@@ -10,6 +10,13 @@ body {
   ;
 }
 
+.aboutus
+{
+  background-image: url(terminal4.jpeg), linear-gradient(rgba(0, 0, 0, 0.7)) !important;
+  background-size:cover;
+  background-position:center;
+}
+
 .navbg
 {
   background-color:white;
@@ -43,22 +50,10 @@ body {
   padding-bottom:5%;
 } 
 
-.boxborder
-{
-  border-top:solid;
-  border-bottom:solid;
-  border-color:black;
-}
 
 #logo
 {
   width: 40%;
-}
-
-.roundimg
-{
-border:solid;
-border-color:black;
 }
 
 .navbar
